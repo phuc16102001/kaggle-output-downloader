@@ -62,4 +62,4 @@ You are welcome to pull request, but please discuss with me for major changes.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](/LICENSE)
