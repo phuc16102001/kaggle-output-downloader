@@ -12,6 +12,16 @@ However, the [Kaggle API](https://github.com/Kaggle/kaggle-api) only has the API
 
 ## Usage
 
+### Install required libraries
+
+Firstly, you need to install some libraries:
+
+```bash
+pip install -r src/requirements.txt
+```
+
+### Run without credential file
+
 Run the script as following:
 
 ```bash
@@ -21,6 +31,8 @@ python src/kaggle-downloader.py \
     -p <password> \
     -n <notebook>
 ```
+
+### Run with credential file
 
 Furthermore, you can provide the user's information with a file named `credential.json` with the following format:
 ```json
